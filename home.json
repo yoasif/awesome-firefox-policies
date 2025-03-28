@@ -1,0 +1,93 @@
+{
+  "policies": {
+    "BackgroundAppUpdate": true,
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "ProviderURL": "https://dns.quad9.net/dns-query"
+    },
+    "DisplayBookmarksToolbar": "newtab",
+    "DontCheckDefaultBrowser": false,
+    "EnableTrackingProtection": {
+      "Cryptomining": true,
+      "Fingerprinting": true
+    },
+    "EncryptedMediaExtensions": {
+      "Enabled": true
+    },
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "normal_installed",
+        "updates_disabled": false
+      }
+    },
+    "FirefoxHome": {
+      "Search": false,
+      "SponsoredPocket": false,
+      "SponsoredTopSites": false
+    },
+    "Permissions": {
+      "VirtualReality": {
+        "BlockNewRequests": true
+      }
+    },
+    "Preferences": {
+      "browser.compactmode.show": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      },
+      "browser.startup.page": {
+        "Status": "default",
+        "Type": "number",
+        "Value": 3
+      },
+      "browser.tabs.insertAfterCurrent": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      },
+      "browser.urlbar.suggest.recentsearches": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.urlbar.suggest.searches": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.urlbar.suggest.trending": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "dom.private-attribution.submission.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.gmp-gmpopenh264.enabled": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      },
+      "privacy.globalprivacycontrol.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      },
+      "privacy.userContext.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      },
+      "widget.gtk.overlay-scrollbars.enabled": {
+        "Status": "user",
+        "Type": "boolean",
+        "Value": false
+      }
+    },
+    "SearchBar": "separate"
+  }
+}
