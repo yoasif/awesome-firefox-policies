@@ -5,7 +5,6 @@
       "Enabled": true,
       "ProviderURL": "https://dns.quad9.net/dns-query"
     },
-    "DisplayBookmarksToolbar": "newtab",
     "DontCheckDefaultBrowser": false,
     "EnableTrackingProtection": {
       "Cryptomining": true,
